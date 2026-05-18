@@ -8,6 +8,20 @@ Shared Codex skills for team installation.
 - `webob-funnel-second-upsell-compare`
 - `webob-funnel-penetration-pay-compare`
 
+## Configuration
+
+These skills read Sensors credentials from environment variables, a `.env` file in the current working directory, or a `.env` file in the installed skill directory.
+
+Create a local `.env` from `.env.example` and fill in:
+
+```bash
+SENSORS_BASE_URL=https://your-sensors-host.example.com
+SENSORS_PROJECT=your_project
+SENSORS_OPENAPI_KEY=#K-your-openapi-key
+```
+
+Do not commit real `.env` files or credentials.
+
 ## Install
 
 After this repository is pushed to GitHub, install one skill with:
