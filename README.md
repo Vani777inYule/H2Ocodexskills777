@@ -7,6 +7,7 @@ Shared Codex skills for team installation.
 - `webob-funnel-upsell-compare`
 - `webob-funnel-second-upsell-compare`
 - `webob-funnel-penetration-pay-compare`
+- `webob-weekly-report`
 
 ## Configuration
 
@@ -32,14 +33,15 @@ python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-githu
   --path skills/webob-funnel-upsell-compare
 ```
 
-Install all three with:
+Install all WebOB skills with:
 
 ```bash
 python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
   --repo YOUR_ORG/YOUR_REPO \
   --path skills/webob-funnel-upsell-compare \
   --path skills/webob-funnel-second-upsell-compare \
-  --path skills/webob-funnel-penetration-pay-compare
+  --path skills/webob-funnel-penetration-pay-compare \
+  --path skills/webob-weekly-report
 ```
 
 Restart Codex after installing new skills.
